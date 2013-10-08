@@ -1,0 +1,105 @@
+@import 'bourbon';
+@import 'normalize.scss';
+// @import 'scss/mixins.scss';
+
+
+//Constants
+$color-link:black;
+
+$font:Corbel, Lucida Grande, Verdana, sans-serif;
+$fs:15px;
+$lh:23px;
+
+$unit:6px;
+
+$mainwidth:940px;
+
+//$data-search-icon: 'data:image/png;base64';
+
+// !Reusable extends
+%setliststyling {list-style-type:disc; list-style-position:inside;} //for li
+%pseudoblockelement {display:block; content:''; position:absolute;} //does not include size, positioning coordinates or background-color
+%button-pressed {position:relative; 
+	&:active {top:-1px;}
+}
+
+
+// !Reusable mixins
+@mixin setlinkstyling {}
+@mixin unsetlinkstyling {}
+
+
+// !Design mixins
+
+
+// !Design extends
+	// Variables
+
+
+
+
+// !CSS utilities
+// @include font-face('Pragmatica', 'fonts/Pragmatica');
+
+
+// !Scaffold styles
+
+
+// !Universal styles
+body {}
+
+
+/* ============================================================================
+	
+Header 
+	
+============================================================================ */
+
+//Variables
+
+
+//Reusable modules
+
+
+//Local changes 
+
+
+//Local modules
+$h:'page-header';
+
+
+/* ============================================================================
+	
+Content area 
+	
+============================================================================ */
+
+//Variables
+
+
+//Reusable modules
+
+
+//Local changes 
+
+
+//Local modules
+$c:'content-area';
+
+
+/* ============================================================================
+	
+Footer 
+	
+============================================================================ */
+
+//Variables
+
+
+//Reusable modules
+
+
+//Local changes 
+
+
+//Local modules
